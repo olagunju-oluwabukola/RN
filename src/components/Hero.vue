@@ -23,7 +23,7 @@
           </p>
           <div class="flex gap-5 md:gap-7 mt-5 md:mt-7">
             <img
-              src="/img/rn1.jpg"
+              src="/img/rn1.png"
               alt="Cyber Defense Icon"
               class="w-20 h-10"
             />
