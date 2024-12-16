@@ -1,22 +1,23 @@
 <template>
   <section class="py-12 md:py-16 text-center relative bg-gradient-to-r from-[#160101] to-[#151212]">
     <div class="relative z-10">
-      
-      <h2 class="text-2xl md:text-3xl font-bold bg-gradient-to-r from-red to-black bg-clip-text text-transparent mb-4">
-        Testimonials</h2>
+      <h1 class="text-3xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red to-black bg-clip-text text-transparent mt-10 md:mt-0">
+          Testimonials
+        </h1>
+
       <!-- Grid layout for medium and larger screens -->
-      <div class="hidden md:grid gap-6 md:grid-cols-3  md:mx-1 lg:mx-0 py-2 lg:py-10">
+      <div class="hidden md:grid gap-6 md:grid-cols-3 text-center md:mx-1 lg:mx-0 py-2 lg:py-10">
         <div
           v-for="(testimonial, index) in testimonials"
           :key="index"
           class="relative md:p-0 lg:p-6"
         >
           <div
-            class="md:p-10 lg:p-16  text-white text-[12px] test flex flex-col  h-full bg-no-repeat bg-cover rounded-lg"
+            class="md:p-10 lg:p-16 text-center text-white text-[12px] test flex flex-col justify-center items-center h-full bg-no-repeat bg-cover rounded-lg"
             style="background-image: url('/img/Rectangle 11.svg');"
           >
-            <img src="/img/R N 1.svg" alt="logo" class="w-20 mb-8" />
-            <p class="p-2 max-w-xs text-left">
+            <img src="/img/R_N_1-removebg-preview.png" alt="logo" class="w-20 mb-8" />
+            <p class="p-4 max-w-xs">
               "{{ testimonial.text }}"
             </p>
           </div>
@@ -37,7 +38,7 @@
               class="w-full flex-shrink-0 text-red h-64"
             >
               <div
-                class="p-6 text-[12px] rounded-lg text-red flex flex-col justify-center items-center h-full bg-no-repeat bg-cover"
+                class="p-6 text-[12px] rounded-lg text-white flex flex-col justify-center items-center h-full bg-no-repeat bg-cover"
                 style="background-image: url('/img/Rectangle 11.svg');"
               >
                 <img src="/img/R N 1.svg" alt="logo" class="w-20 mb-8" />
@@ -114,7 +115,6 @@ export default {
 </script>
 
 <style scoped>
-
 .test {
   background-position: center;
   background-size: contain; 

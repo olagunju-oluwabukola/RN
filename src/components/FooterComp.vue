@@ -4,9 +4,9 @@
         <!-- Top Section -->
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
           <img
-          src="/img/R N 1.svg"
-          alt="Cyber Defense Icon"
-          class="h-6 md:h-14 w-1/2 "
+          src="/img/R_N_1-removebg-preview.png"
+          alt="RedNotice Icon"
+          class="h-6 md:h-14"
         />
           <!-- Left Section: Links -->
           <div>

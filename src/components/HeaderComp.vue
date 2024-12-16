@@ -4,7 +4,7 @@
       <!-- Logo -->
       <div class="text-2xl font-bold flex items-center">
         <img
-          src="/img/R N 1.svg"
+          src="/img/R_N_1-removebg-preview.png"
           alt="Cyber Defense Icon"
           class="max-w-full h-auto"
         />
@@ -37,7 +37,7 @@
           </svg>
           <span>Sign In</span>
         </router-link>
-        <button class="px-4 py-2 bg-gradient-to-r from-red text-white rounded-md shadow-md hover:opacity-90">
+        <button class="px-4 py-2 bg-gradient-to-r from-red text-white rounded-2xl shadow-md hover:opacity-90">
           Request a demo
         </button>
       </div>

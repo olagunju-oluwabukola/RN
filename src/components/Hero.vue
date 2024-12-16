@@ -23,19 +23,19 @@
           </p>
           <div class="flex gap-5 md:gap-7 mt-5 md:mt-7">
             <img
-              src="/img/rn1.png"
+              src="/img/logo2-removebg-preview.png"
               alt="Cyber Defense Icon"
-              class="w-20 h-10"
+              class="w-28 h-10"
             />
             <img
-              src="/img/rn2.jpg"
+              src="/img/rn1-removebg-preview.png"
               alt="Cyber Defense Icon"
-              class="w-20 h-10"
+              class="w-28 h-12"
             />
             <img
-              src="/img/rn3.jpg"
+              src="/img/rn3-removebg-preview.png"
               alt="Cyber Defense Icon"
-              class="w-20 h-10"
+              class="w-20 h-12"
             />
           </div>
         </div>
